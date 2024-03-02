@@ -1,0 +1,160 @@
+/*==================================================
+			Bootstrap 3 Media Queries         
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    /* OK */
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Mobile menu */
+    .site-nav-wrepper {
+        padding: 0 50px;
+    }
+
+    #service-item-icon i {
+        height: 45px;
+        width: 45px;
+        font-size: 25px;
+    }
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .5);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    hr {
+        margin: 0 auto;
+    }
+
+    /* Work*/
+    #content-box,
+    #horizontal-heading,
+    #service-item {
+        text-align: center;
+    }
+
+    #service-item-icon {
+        margin: auto;
+    }
+
+    /* Google map*/
+    #google-map #content-wrepper p {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+
+    /* Mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .5);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .site-nav-wrepper {
+        padding: 0;
+    }
+
+    hr {
+        margin: 0 auto;
+    }
+
+    /* Home */
+    #home-heading h1 {
+        font-size: 45px;
+    }
+
+    /* Work*/
+    #content-box,
+    #horizontal-heading,
+    #service-item {
+        text-align: center;
+    }
+
+    #service-item-icon {
+        margin: auto;
+    }
+
+    /* Testimonials*/
+    .testimonial-item {
+        margin-bottom: 10px;
+    }
+
+    /* Google map*/
+    #google-map #content-wrepper p {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+
+    /* Home */
+    #home-heading h1 {
+        font-size: 40px;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px) {
+
+    /* Home */
+    #home-heading h1 {
+        font-size: 35px;
+        padding: 10px 0;
+    }
+
+    #home-heading h2 {
+        font-size: 25px;
+    }
+
+    /* Button */
+    #home-btn .btn-general {
+        padding: 8px 10px;
+    }
+}
